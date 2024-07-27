@@ -69,7 +69,7 @@ const questions = [
 
     {
         type: "input",
-        name: "Contact-Me",
+        name: "email",
         message: "Email:",
     }
 ];

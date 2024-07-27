@@ -47,7 +47,7 @@ function generateMarkdown(data) {
   ${data.usage}
   ## Contact-Me
  * Name - ${data.name}
- * Email - ${data.Contact-Me}
+ * Email - ${data.email}
  * GitHub - [${data.username}](https://github.com/${data.username}/)
  ## Contributers
  ${data.contributers}
