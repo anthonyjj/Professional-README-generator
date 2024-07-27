@@ -15,14 +15,14 @@ const questions = [
 
     {
         type: "input",
-        name: "Password",
-        message: "What is your password?",
+        name: "description",
+        message: "Please desbcribe the purpose and funcionality of this project",
     },
 
     {
         type: "input",
-        name: "description",
-        message: "Please desbcribe the purpose and funcionality of this project",
+        name: "installation",
+        message: "Please describe how to install/run this application",
     },
 
     {
@@ -35,22 +35,35 @@ const questions = [
     {
         type: "input",
         name: 'dependencies',
-        message: "List and project dependencies that the project uses",
+        message: "List any project dependencies that the project uses",
     },
 
     {
-        type: 'input',
-        name: 'usage',
+        type: "input",
+        name: "usage",
         message: "state the language or tehnologies used with this project",
     },
 
+    {
+        type: "input",
+        name: "contributions",
+        message: "Please list any contributors. (Use GitHub Usernames)",
+        
+    },
 ];
 
 // TODO: Create a function to write README file
-function writeToFile(fileName, data) {}
+function writeToFile(fileName, data) {
+    return fs.writeFileSync(path.join(process.cwd(), fileName), data);
+}
 
 // TODO: Create a function to initialize app
-function init() {}
+function init() {
+    inquirer.prompt(questions).then((responses) => {
+        console.log("Creating Professional README.md File...");
+        writeToFile("./dist/README.md", generateMarkdown({...responses}));
+    });
+}
 
 // Function call to initialize app
 init();
