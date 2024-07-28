@@ -1,4 +1,4 @@
-# Read Me Generator
+# Note Taker
   by Anthony
   
 * [License] (#license)
@@ -13,13 +13,13 @@
 * [License] (#license)
 
   ## Description
-  The purpose of this project was to help developers make faster read me files, and the funcionality is just anwsering these questions and it'll put your anwsers in the read me file  
+  As a developer I want to be able to take notes to manage my time better, I can do this by pushing new note, typing out the title of my note then putting a description and pressing save, I can also delete my notes as well whenever I am done with them
   ## Requirements
-  you need to run a npm install inquirer then you need to put node followed which ever file you want to read so in this case it's index.js
+  You need express, uuid, then you do node server.js
   ## Requirements
-  Node.js, javascript, inquirer
+  HTML, CSS, Javascript, node, express
   ## Usage
-  To help devolopers make faster read mes
+  To keep track of notes
   ## Contact-Me
  * Name - Anthony
  * Email - random@gmail
