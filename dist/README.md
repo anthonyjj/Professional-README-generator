@@ -1,4 +1,4 @@
-# Note Taker
+# Professional ReadMe
   by Anthony
   
 * [License] (#license)
@@ -13,13 +13,13 @@
 * [License] (#license)
 
   ## Description
-  As a developer I want to be able to take notes to manage my time better, I can do this by pushing new note, typing out the title of my note then putting a description and pressing save, I can also delete my notes as well whenever I am done with them
+  As a developer I want to make something that will help me make Read me files faster, all you have to do is answer these questions
   ## Requirements
-  You need express, uuid, then you do node server.js
+  All you need to do is install your node modules, install inquirer then do node followed by whichever file you want to read so in this case index.js
   ## Requirements
-  HTML, CSS, Javascript, node, express
+  Javascript, inquirer
   ## Usage
-  To keep track of notes
+  To make readmes faster
   ## Contact-Me
  * Name - Anthony
  * Email - random@gmail
